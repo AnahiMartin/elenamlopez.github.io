@@ -1,0 +1,44 @@
+h1 {
+
+color: #23423C;
+text-align: center;
+font-family: 'Shrikhand', cursive;
+font-size: 300%;
+background-color: rgb(202,196,176);
+
+
+}
+h2 {
+  font-family: 'Shrikhand', cursive;
+  color: rgb(053,104,045);
+}
+h3{
+  color: #ffffff;
+  font-size: 16px;
+}
+body {
+
+  background-image: url("images/fondo.JPG");
+  background-size: cover;
+}
+table {
+  background-color: rgb(202,196,176);
+  font-family: 'Droid Serif', serif;
+
+}
+ul{
+  font-size: 16px;
+  color: rgb(053,104,045);
+}
+p{
+  background-color: white;
+}
+a:link{
+  text-decoration:none;
+}
+ul li {
+  list-style-type: square;
+}
+.logo{
+  width: 50px;
+}
