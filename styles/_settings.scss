@@ -1,4 +1,8 @@
 /*FONTS*/
+/*font-family: 'Fredericka the Great', cursive;
+font-family: 'Life Savers', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Kranky', cursive;*/
 $title-font: 'Kranky', cursive;;
 $secondari-title-font: 'Kranky', cursive;
 $normal-text-font: 'Open Sans', sans-serif;
@@ -7,10 +11,10 @@ $normal-text-font: 'Open Sans', sans-serif;
 $xl-text: 45px;
 $l-text: 30px;
 $m-text: 20px;
-$s-text: 12px;
+$s-text: 16px;
 $xs-text: 10px;
 /*COLORS*/
-$dark-green: rgb(35, 66, 60);
+$dark-green: rgb(27, 74, 5); /* #1b4a05   --otro--rgb(35, 66, 60);*/
 $greenToProbe:rgb(27, 74, 5);
 $light-green: rgb(248, 255, 246);
 $darken-color: rgb(1, 14, 3);
@@ -29,5 +33,8 @@ body{
 }
 a:link{
   text-decoration:none;
+  color: inherit;
+}
+a:visited{
   color: inherit;
 }

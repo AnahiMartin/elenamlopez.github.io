@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient($light-background, white);
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+}
+.footerInfo{
+  font-family: $title-font;
+  font-size: $s-text;
+  color: $dark-green;
+  padding-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footerInfo h4{
+  margin-bottom: 0;
+}
+.footerInfo p{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.footerIcons, .footerContact{
+  margin-left: 10px;
+  margin-right: 10px;
+}

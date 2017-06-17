@@ -16,3 +16,24 @@
   color: $darken-color;
   padding: 15px;
 }
+
+.mainCardHead{
+  font-family: $title-font;
+  color: $dark-green;
+}
+.agreements-title{
+  font-family: $title-font;
+  font-size: $m-text;
+  color: $dark-green;
+
+}
+.agreements{
+  margin-top: 200px;
+  margin-bottom: 150px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 4px 6px 4px;
+  background-color: rgba(252, 252, 247, 0.72);
+  width: 40%;
+  font-size: $s-text;
+  color: darken-color;
+}
