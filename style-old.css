@@ -5,20 +5,20 @@
 font-family: 'Life Savers', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Kranky', cursive;*/
-a:link{
+/*a:link{
   text-decoration:none;
   color: inherit;
-}
+}*/
 
 
-h1 {
+/*h1 {
 color: #23423C;
 text-align: center;
 font-family: 'Kranky', cursive;
 font-size: 40px;
 background-color: rgba(159, 219, 112, 0.86);
 border-radius: 20px 20px 10px 10px;
-}
+}*/
 
 h2 {
   font-family: 'Open Sans', sans-serif;
@@ -31,22 +31,22 @@ h3{
   text-align: center;
   font-family: 'Kranky', cursive;
 }
-body {
+/*body {
   margin: 10px 0px 0px 0px;
   background-image: url("images/fondo-mejorado.JPG");
   background-size: cover;
-}
-
+}*/
+/*
 .icon {
   width: 30px;
-}
+}*/
 
 .content {
   margin:30px 50px 10px 50px;
   padding: 10px;
 }
 
-.main{
+/*.main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -56,9 +56,9 @@ body {
   width: 25%;
   background-color: rgba(248, 255, 246, 0.70);
   font-family: 'Open Sans', sans-serif;
-  color: #050f0d;
+  color: rgb(1, 14, 3);
   padding: 15px;
-}
+}*/
 
 .agreements  {
   margin-top: 200px;

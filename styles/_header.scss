@@ -1,0 +1,16 @@
+.header{
+  text-align: center;
+  background-color: $green-transparent;
+  border-radius: 20px 20px 10px 10px;
+  padding-top: 15px;
+}
+.header h1{
+  color: $greenToProbe;
+  font-family: $title-font;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: $xl-text;
+}
+.icon{
+  width: 30px;
+}

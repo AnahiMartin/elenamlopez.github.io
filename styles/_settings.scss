@@ -1,0 +1,33 @@
+/*FONTS*/
+$title-font: 'Kranky', cursive;;
+$secondari-title-font: 'Kranky', cursive;
+$normal-text-font: 'Open Sans', sans-serif;
+
+/*FONTS SIZE*/
+$xl-text: 45px;
+$l-text: 30px;
+$m-text: 20px;
+$s-text: 12px;
+$xs-text: 10px;
+/*COLORS*/
+$dark-green: rgb(35, 66, 60);
+$greenToProbe:rgb(27, 74, 5);
+$light-green: rgb(248, 255, 246);
+$darken-color: rgb(1, 14, 3);
+
+/*BACKGROUNDS COLORS*/
+$green-transparent: rgba(159, 219, 112, 0.86);
+$light-background: rgba(248, 255, 246, 0.70);
+$white-transparent: rgba(241, 241, 241, 0.6);
+
+/*GENERAL*/
+*{
+box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+a:link{
+  text-decoration:none;
+  color: inherit;
+}
