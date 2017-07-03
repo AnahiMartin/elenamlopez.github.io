@@ -1,0 +1,29 @@
+.second-container{
+  background-color: linear-gradient(white,$light-background);
+  display: flex;
+}
+
+
+.skills-intro{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  font-family: $title-font;
+  color: $dark-green;
+}
+.second-page-left,
+.second-page-right,
+.second-page-middle{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.second-page-middle{
+  justify-content: space-around;
+}
+.skill-text{
+  font-size: $l-text;
+  font-family: $title-font;
+  color: $dark-green;
+  text-align: center;
+}

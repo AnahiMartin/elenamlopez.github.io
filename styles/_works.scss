@@ -1,0 +1,52 @@
+.thirt-container h1{
+  font-family: $title-font;
+  color: $dark-green;
+  font-size: $l-text;
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.thirt-container{
+  padding-top: 30px;
+  padding-bottom: 0;
+
+}
+.works{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: $normal-text-font;
+  text-align: center;
+  color: white;
+}
+
+.work-image{
+  width: 100%;
+  display: block;
+
+}
+
+.BQ-Adalab,
+.reXistance,
+.comeJavaS,
+.Adalovers,
+.exercices{
+  width: 30%;
+  background-color: rgba(2, 52, 1, 0.94);
+  margin: 20px;
+  padding: 0;
+  transition: 0.5s linear 0s;
+}
+
+.BQ-Adalab:hover,
+.reXistance:hover,
+.comeJavaS:hover,
+.Adalovers:hover,
+.exercices:hover{
+  background-color: rgba(4, 94, 2, 1);
+
+}

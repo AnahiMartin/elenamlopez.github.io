@@ -1,5 +1,18 @@
 .content-main{
-  background-image: url("../images/fondo-mejorado.JPG");
+  background-image: url("../images/fondo-mejorado-recorte.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 0 -40px;
+
+  background-attachment: fixed;
+
+}
+
+.thirt-container{
+  background-image: url("../images/froggy-forest.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-position: bottom;
 }
