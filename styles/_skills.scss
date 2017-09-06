@@ -1,15 +1,28 @@
 .second-container{
-  background-color: linear-gradient(white,$light-background);
+  background-color: white;
   display: flex;
+}
+.skills-section{
+  // background-color: linear-gradient(top,white,$light-background);
+//   background: -webkit-linear-gradient(white, blue); /* For Safari 5.1 to 6.0 */
+// background: -o-linear-gradient(white, blue); /* For Opera 11.1 to 12.0 */
+// background: -moz-linear-gradient(white, blue); /* For Firefox 3.6 to 15 */
+//background: linear-gradient(transparent,white); /* Standard syntax */
+
+
 }
 
 
 .skills-intro{
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 100%;
+  height: 200px;
   font-family: $title-font;
   color: $dark-green;
+  background: linear-gradient(transparent,white);
+  text-align: center;
+  padding-top: 200px;
 }
 .second-page-left,
 .second-page-right,
@@ -17,6 +30,7 @@
   width: 30%;
   display: flex;
   flex-direction: column;
+
 }
 .second-page-middle{
   justify-content: space-around;
@@ -26,4 +40,16 @@
   font-family: $title-font;
   color: $dark-green;
   text-align: center;
+}
+.skills-end{
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+  font-family: $title-font;
+  color: $dark-green;
+  background: linear-gradient(white 20%, transparent);
+  text-align: center;
+}
+.skills-end p{
+  margin:0;
 }

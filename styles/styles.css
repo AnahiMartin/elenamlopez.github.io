@@ -33,11 +33,11 @@ a:visited {
   color: #1b4a05;
   font-family: "Kranky", cursive;
   margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 45px; }
+  margin-bottom: 15px;
+  font-size: 30px; }
 
 .icon {
-  width: 30px; }
+  width: 20px; }
 
 .header-list {
   padding-bottom: 5px;
@@ -48,12 +48,18 @@ a:visited {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #1b4a05; }
+  color: #1b4a05;
+  margin: 0 auto;
+  width: 40%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: bold; }
 
 .header-item-list {
   font-family: "Kranky", cursive;
   font-size: 20px;
-  margin: 10px; }
+  margin: 10px;
+  padding: 0; }
 
 .main {
   display: -webkit-box;
@@ -68,14 +74,11 @@ a:visited {
   margin-left: 20px;
   margin-right: 20px; }
 
-.content-main {
-  padding-bottom: 100px; }
-
 .mainCard {
   width: 25%;
   background-color: rgba(248, 255, 246, 0.7);
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #010e03;
   padding: 15px; }
 
@@ -85,17 +88,17 @@ a:visited {
 
 .agreements-title {
   font-family: "Kranky", cursive;
-  font-size: 20px;
+  font-size: 16px;
   color: #1b4a05; }
 
 .agreements {
   margin-top: 200px;
-  margin-bottom: 150px;
+  margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
   padding: 10px 4px 6px 4px;
   background-color: rgba(252, 252, 247, 0.72);
-  width: 40%;
-  font-size: 16px;
+  width: 60%;
+  font-size: 14px;
   color: #010e03; }
 
 .footer {
@@ -120,7 +123,7 @@ a:visited {
 
 .footerInfo {
   font-family: "Kranky", cursive;
-  font-size: 16px;
+  font-size: 14px;
   color: #1b4a05;
   padding-top: 10px;
   margin-bottom: 0;
@@ -141,7 +144,7 @@ a:visited {
   margin-right: 10px; }
 
 .second-container {
-  background-color: linear-gradient(white, rgba(248, 255, 246, 0.7));
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -149,9 +152,14 @@ a:visited {
 .skills-intro {
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 100%;
+  height: 200px;
   font-family: "Kranky", cursive;
-  color: #1b4a05; }
+  color: #1b4a05;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(white));
+  background: linear-gradient(transparent, white);
+  text-align: center;
+  padding-top: 200px; }
 
 .second-page-left,
 .second-page-right,
@@ -170,24 +178,33 @@ a:visited {
       justify-content: space-around; }
 
 .skill-text {
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Kranky", cursive;
   color: #1b4a05;
   text-align: center; }
 
+.skills-end {
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+  font-family: "Kranky", cursive;
+  color: #1b4a05;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, white), to(transparent));
+  background: linear-gradient(white 20%, transparent);
+  text-align: center; }
+
+.skills-end p {
+  margin: 0; }
+
 .thirt-container h1 {
   font-family: "Kranky", cursive;
   color: #1b4a05;
-  font-size: 30px;
+  font-size: 20px;
   background-color: white;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 50%; }
-
-.thirt-container {
-  padding-top: 30px;
-  padding-bottom: 0; }
 
 .works {
   display: -webkit-box;
